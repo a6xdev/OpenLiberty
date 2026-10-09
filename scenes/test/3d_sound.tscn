@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://d3a5xdotn86ho"]
 
-[ext_resource type="Script" uid="uid://d3myvlu45onr" path="res://scripts/gameplay/vehicles/car/3d_sound.gd" id="1_0iy6i"]
+[ext_resource type="Script" uid="uid://d3myvlu45onr" path="res://assets/prefabs/vehicles/car/3d_sound.gd" id="1_0iy6i"]
 
 [node name="3d_sound" type="Node3D" unique_id=233396721]
 script = ExtResource("1_0iy6i")

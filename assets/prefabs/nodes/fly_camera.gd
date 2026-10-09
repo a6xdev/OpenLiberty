@@ -1,4 +1,5 @@
 extends Node3D
+class_name FlyCamera
 
 @export var speed: float = 100
 @export var sensitivity: float = 1

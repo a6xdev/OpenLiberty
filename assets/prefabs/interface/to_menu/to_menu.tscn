@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://bnpk46c06o8ly"]
 
-[ext_resource type="Script" uid="uid://courgr50f6lei" path="res://assets/prefabs/to_menu/to_menu.gd" id="1_kxd7i"]
+[ext_resource type="Script" uid="uid://courgr50f6lei" path="res://assets/prefabs/interface/to_menu/to_menu.gd" id="1_kxd7i"]
 
 [node name="to_menu" type="Button" unique_id=208828170]
 offset_right = 8.0

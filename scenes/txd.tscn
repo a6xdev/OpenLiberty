@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://c50i7vaus60dl"]
 
-[ext_resource type="Script" uid="uid://7qfc865s65hm" path="res://scripts/interface/txd.gd" id="1_4uo24"]
-[ext_resource type="PackedScene" uid="uid://bnpk46c06o8ly" path="res://assets/prefabs/to_menu/to_menu.tscn" id="1_xoe8g"]
+[ext_resource type="Script" uid="uid://7qfc865s65hm" path="res://assets/prefabs/actors/player/interface/txd.gd" id="1_4uo24"]
+[ext_resource type="PackedScene" uid="uid://bnpk46c06o8ly" path="res://assets/prefabs/interface/to_menu/to_menu.tscn" id="1_xoe8g"]
 [ext_resource type="Texture2D" uid="uid://n4ajg6343i77" path="res://icon.svg" id="3_y7lf0"]
 
 [node name="txd" type="Control" unique_id=816122659]

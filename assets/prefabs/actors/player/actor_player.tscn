@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://cv58ppu7g0qet" path="res://addons/Third-Person-Controller-main/Scripts/Characters/Player.gd" id="1_hn6di"]
 [ext_resource type="Script" uid="uid://doje8cwbtkiys" path="res://addons/Third-Person-Controller-main/Scripts/Characters/SpringArmPivot.gd" id="2_f8ihf"]
-[ext_resource type="Script" uid="uid://4pwpfwe2nu0a" path="res://scripts/interface/player/player_hud.gd" id="3_78d5d"]
+[ext_resource type="Script" uid="uid://4pwpfwe2nu0a" path="res://assets/prefabs/actors/player/interface/player/player_hud.gd" id="3_78d5d"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_e5or4"]
 resource_name = "Mat_Joints"

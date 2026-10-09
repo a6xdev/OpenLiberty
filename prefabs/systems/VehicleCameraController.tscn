@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://cbqiivbia7d5d"]
 
-[ext_resource type="Script" uid="uid://brwrpw6aogbsi" path="res://assets/prefabs/vehicles/VehicleCameraController.gd" id="1_p1l74"]
+[ext_resource type="Script" uid="uid://brwrpw6aogbsi" path="res://prefabs/vehicles/VehicleCameraController.gd" id="1_p1l74"]
 
 [node name="VehicleCameraController" type="Node3D" unique_id=378518906]
 script = ExtResource("1_p1l74")

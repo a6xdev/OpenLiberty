@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://dnxwox43mmj07"]
 
-[ext_resource type="Environment" uid="uid://ccr7xp2qxu2g3" path="res://scenes/world/test.tres" id="1_2h2e7"]
+[ext_resource type="Environment" uid="uid://ccr7xp2qxu2g3" path="res://assets/world_environment/test.tres" id="1_2h2e7"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_aqhx6"]
 size = Vector3(20, 1, 20)

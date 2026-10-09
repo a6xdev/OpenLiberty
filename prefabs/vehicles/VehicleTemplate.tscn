@@ -1,11 +1,11 @@
 [gd_scene format=4 uid="uid://d2u8vbkvktl7g"]
 
-[ext_resource type="Script" uid="uid://dsemxahkmbat" path="res://assets/prefabs/vehicles/car/lights.gd" id="1_h24mh"]
-[ext_resource type="Script" uid="uid://bu8pvjqbi7p6g" path="res://assets/prefabs/vehicles/VehicleHead.gd" id="1_xfu4b"]
+[ext_resource type="Script" uid="uid://dsemxahkmbat" path="res://prefabs/vehicles/car/lights.gd" id="1_h24mh"]
+[ext_resource type="Script" uid="uid://bu8pvjqbi7p6g" path="res://prefabs/vehicles/VehicleHead.gd" id="1_xfu4b"]
 [ext_resource type="Texture2D" uid="uid://68wfpqbugcdf" path="res://mods/cars/car1_001_COLOR_BASIC.png" id="2_ce6bi"]
-[ext_resource type="Script" uid="uid://bwkswmoif42cf" path="res://assets/prefabs/vehicles/VehicleEngine.gd" id="5_jc703"]
-[ext_resource type="PackedScene" uid="uid://cbqiivbia7d5d" path="res://assets/prefabs/systems/VehicleCameraController.tscn" id="5_k4wtr"]
-[ext_resource type="Script" uid="uid://d26c8j30nhymq" path="res://assets/prefabs/vehicles/VehicleSteering.gd" id="6_6e4ib"]
+[ext_resource type="Script" uid="uid://bwkswmoif42cf" path="res://prefabs/vehicles/VehicleEngine.gd" id="5_jc703"]
+[ext_resource type="PackedScene" uid="uid://cbqiivbia7d5d" path="res://prefabs/systems/VehicleCameraController.tscn" id="5_k4wtr"]
+[ext_resource type="Script" uid="uid://d26c8j30nhymq" path="res://prefabs/vehicles/VehicleSteering.gd" id="6_6e4ib"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_aq812"]
 resource_name = "BASIC COLOR"

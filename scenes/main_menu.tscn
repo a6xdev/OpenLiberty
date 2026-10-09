@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://bqtmxk2gk3tj1"]
 
-[ext_resource type="Script" uid="uid://c8nllqklh324m" path="res://assets/prefabs/actors/player/interface/menu.gd" id="1_o874y"]
+[ext_resource type="Script" uid="uid://c8nllqklh324m" path="res://prefabs/actors/player/interface/menu.gd" id="1_o874y"]
 
 [node name="main_menu" type="Control" unique_id=1668071690]
 layout_mode = 3

@@ -21,7 +21,7 @@ driver/enable_input=true
 
 [autoload]
 
-GameManager="*res://scripts/core/globals/game_manager.gd"
+GameManager="*res://scripts/core/singleton/game_manager.gd"
 
 [editor_plugins]
 

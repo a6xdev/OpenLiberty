@@ -1,9 +1,9 @@
 [gd_scene format=4 uid="uid://bhnf2ypniaum0"]
 
-[ext_resource type="Script" uid="uid://dgbmjswauaoxr" path="res://scripts/car/car.gd" id="1_srwvd"]
+[ext_resource type="Script" uid="uid://dgbmjswauaoxr" path="res://scripts/gameplay/vehicles/car/car.gd" id="1_srwvd"]
 [ext_resource type="Texture2D" uid="uid://68wfpqbugcdf" path="res://mods/cars/car1_001_COLOR_BASIC.png" id="2_airkg"]
-[ext_resource type="Script" uid="uid://dsemxahkmbat" path="res://scripts/car/lights.gd" id="3_32e0k"]
-[ext_resource type="Script" uid="uid://qucok1qggtyk" path="res://scripts/car/music.gd" id="5_uun7x"]
+[ext_resource type="Script" uid="uid://dsemxahkmbat" path="res://scripts/gameplay/vehicles/car/lights.gd" id="3_32e0k"]
+[ext_resource type="Script" uid="uid://qucok1qggtyk" path="res://scripts/gameplay/vehicles/car/music.gd" id="5_uun7x"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_aq812"]
 resource_name = "BASIC COLOR"

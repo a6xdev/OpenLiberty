@@ -3,7 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://bnpk46c06o8ly" path="res://prefabs/interface/to_menu/to_menu.tscn" id="1_7rgiv"]
 [ext_resource type="Script" uid="uid://3xiktqxv4a5f" path="res://scripts/core/nodes/model_test.gd" id="1_fud8n"]
 [ext_resource type="Material" uid="uid://c3cptegacudr8" path="res://assets/materials/worldgrid/worldgrid.tres" id="2_gok33"]
-[ext_resource type="PackedScene" uid="uid://bt041qrw0l2bm" path="res://prefabs/nodes/fly_camera.tscn" id="4_xmsg8"]
+[ext_resource type="Script" uid="uid://8it7nmk26vbi" path="res://scripts/core/nodes/ol_camera.gd" id="4_kd0ei"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_yy30q"]
 
@@ -83,8 +83,9 @@ mesh = SubResource("PlaneMesh_jjs8n")
 [node name="mesh" type="MeshInstance3D" parent="." unique_id=1992342132]
 material_override = SubResource("StandardMaterial3D_1c5hl")
 
-[node name="flycam" parent="." unique_id=494160582 instance=ExtResource("4_xmsg8")]
-transform = Transform3D(0.707107, -0.5, 0.5, 0, 0.707107, 0.707107, -0.707107, -0.5, 0.5, 1, 1, 1)
+[node name="OLCamera" type="Camera3D" parent="." unique_id=1253059997]
+script = ExtResource("4_kd0ei")
+metadata/_custom_type_script = "uid://8it7nmk26vbi"
 
 [connection signal="pressed" from="GUI/VBoxContainer/HBoxContainer/Button" to="." method="_ld_dff"]
 [connection signal="value_changed" from="GUI/VBoxContainer/HBoxContainer/SpinBox" to="." method="_ld_model"]

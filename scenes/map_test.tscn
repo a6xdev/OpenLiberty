@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://bq4ba2ldahgty" path="res://scenes/map_test.gd" id="1_b8hlh"]
 [ext_resource type="PackedScene" uid="uid://bnpk46c06o8ly" path="res://prefabs/interface/to_menu/to_menu.tscn" id="2_butse"]
-[ext_resource type="PackedScene" uid="uid://bt041qrw0l2bm" path="res://prefabs/nodes/fly_camera.tscn" id="3_850h8"]
+[ext_resource type="Script" uid="uid://8it7nmk26vbi" path="res://scripts/core/nodes/ol_camera.gd" id="3_o4b1t"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_eihtl"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -56,4 +56,6 @@ offset_right = 40.0
 offset_bottom = 23.0
 text = "Press space to spawn Suzanne"
 
-[node name="flycam" parent="." unique_id=68574483 instance=ExtResource("3_850h8")]
+[node name="OLCamera" type="Camera3D" parent="." unique_id=167810320]
+script = ExtResource("3_o4b1t")
+metadata/_custom_type_script = "uid://8it7nmk26vbi"

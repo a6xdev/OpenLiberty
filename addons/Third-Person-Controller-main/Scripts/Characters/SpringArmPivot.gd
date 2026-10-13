@@ -8,7 +8,7 @@ extends Node3D
 const CAMERA_BLEND : float = 0.05
 
 @onready var spring_arm : SpringArm3D = $SpringArm3D
-@onready var camera : Camera3D = $SpringArm3D/OLCamera
+@onready var camera : OLCamera = $SpringArm3D/OLCamera
 
 var is_cursor_visible:bool = false
 
@@ -16,7 +16,7 @@ func _ready():
 	DebugManager.debug_mode_changed.connect(_on_debug_mode_changed)
 
 func _input(event: InputEvent) -> void:
-	if event is InputEventMouseMotion:
+	if event is InputEventMouseMotion and not GameManager.is_cursor_visible():
 		rotate_y(-event.relative.x * 0.005)
 		spring_arm.rotate_x(-event.relative.y * 0.005)
 		spring_arm.rotation.x = clamp(spring_arm.rotation.x, -PI/4, PI/4)
